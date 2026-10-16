@@ -1,7 +1,7 @@
--- ================================================
--- Q4: Estimate Customer Lifetime Value (CLV)
+-- ============================================================
+-- Scenario 4: Estimate Customer Lifetime Value (CLV)
 --     using transaction history and account tenure
--- ================================================
+-- ============================================================
 
 WITH user_transactions AS (
     -- Step 1: Aggregate confirmed transactions per user
