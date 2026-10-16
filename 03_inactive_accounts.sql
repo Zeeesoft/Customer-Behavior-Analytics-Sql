@@ -1,7 +1,7 @@
--- ================================================
--- Q3: Identify active plans with no transactions 
---     in the past 365 days (inactivity alert)
--- ================================================
+-- ============================================================
+-- Scenario 3: Identify active plans with no transactions 
+--             in the past 365 days (inactivity alert)
+-- ============================================================
 
 WITH latest_transaction AS (
     -- Step 1: Capture most recent transaction per plan
