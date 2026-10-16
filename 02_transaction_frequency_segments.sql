@@ -1,7 +1,7 @@
--- ================================================
--- Q2: Classify customers by average transaction frequency
---     and group them into frequency categories
--- ================================================
+-- ===========================================================
+-- Scenario 2: Classify customers by average transaction frequency
+--             and group them into frequency categories
+-- ===========================================================
 
 WITH customer_transactions AS (
     -- Step 1: Aggregate total transactions and find activity window per customer
