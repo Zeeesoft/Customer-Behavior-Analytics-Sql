@@ -1,7 +1,7 @@
--- ================================================
--- Q1: Identify customers who have both a funded savings 
---     and a funded investment plan, ranked by total deposits
--- ================================================
+-- ==========================================================
+-- Scenario 1: Identify customers who have both a funded savings 
+--            and a funded investment plan, ranked by total deposits
+-- ==========================================================
 
 SELECT 
     u.id AS owner_id,
